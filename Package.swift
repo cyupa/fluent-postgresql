@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .target(name: "FluentPostgresDriver", dependencies: [
             "FluentKit",
-            "SQLKit",
+            "FluentSQL",
             "NIOKit",
             "NIOPostgres",
             "SQLKit"
